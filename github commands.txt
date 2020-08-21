@@ -1,0 +1,59 @@
+
+
+
+# Running git config on the current repository settings
+$ git config user.email "vikramcsana16@gmail.com"
+$ git config user.name "vikram-codex"
+
+Basic command's 
+
+git config
+# Running git config globally
+$ git config --global user.email "vikramcsana16@gmail.com"
+$ git config --global user.name "vikram-codex"
+
+part -1 :
+$ ls // see all file in project folder
+$ pwd // see current path
+$ clear  // clear history
+
+ rm -rf .git/
+
+
+
+3)* git status        // check status every statement
+1. git diff[filename] // check line of  changes in project 
+
+// add file in github 
+1) git init      // add git file in project folder // create git project
+2) git add [fileframe]|| -A  or git add -A  // add file in github // unstage area
+4) git commit -m " msg"//// lock or git commit -am " msg" //add with commit message // stage area
+4) git rm --cached [file name] //remove file from stage area[unstage]
+
+// then create repository in github
+5) git remote add origin repoName or git remote add origin https://github.com/vikramgithubs/learn-git.git
+// then push file 
+6) git push -u origin master or git push origin master  // send project file in github... file is successfully uploaded on git
+
+ 
+
+7) git clone repoName      // extract the project file from github 
+8) git pull origin master  // take file from github
+
+
+git branch : -2
+1) git branch // check branch just branch *master branch
+2) git branch [branch name as lovecode]  // create new branch like as lovecodepro1
+3) git checkout [branch name as lovecode]  // to switch from current branch to another//master branch to *lovecodepro1 branch
+4) git merge [branch name as lovecode]  // to merge branch into current branch
+
+
+filter commit history
+log commit commands
+1) git log // check branch just branch *master branch
+2) git log -p  // see in code 
+3) git log --oneline  // check commit in one line
+4) git log -2 // check last commit
+5) git log -i --grep="text"  or git log -i -p --grep="text" or git log --grep="text"// search text in github file coode
+6) git log -i --author="vikram codex"
+
