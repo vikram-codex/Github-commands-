@@ -1,2 +1,2 @@
 # Github-commands-
-I'm uploading very  important github commands 
+uploading very important github commands 
